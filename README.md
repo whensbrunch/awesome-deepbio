@@ -4,8 +4,9 @@
   <br>
   Awesome DeepBio
   <br>
-  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]  (https://github.com/gokceneraslan/awesome-deepbio)
 </h1>
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/gokceneraslan/awesome-deepbio)
 
 A curated list of awesome deep learning applications in the field of computational biology
 
