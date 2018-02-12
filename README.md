@@ -12,16 +12,36 @@ A curated list of _awesome_ deep learning applications in the field of computati
 
 ## Table of contents
 
-  * [Epigenomics]
-  * [Genomics]
-  * [Disease]
-  
-  * [2017](#2017)
-  * [2016](#2016)
-  * [2015](#2015)
-  * [2014](#2014)
-  * [2013](#2013)
-  * [2012](#2012)
+  * [Epigenomics](#epigenomics)
+    * [Deep neural networks](#deep-neural-networks)
+    * [Convolutional neural networks](#convolutional-neural-networks)
+    * [Recurrent neural networks](#convolutional-neural-networks)
+    * [Emergent architectures](#emergent-architectures)
+  * [Genomics](#genomics)
+    * [Deep neural networks](#deep-neural-networks)
+    * [Convolutional neural networks](#convolutional-neural-networks)
+    * [Recurrent neural networks](#convolutional-neural-networks)
+    * [Emergent architectures](#emergent-architectures)
+  * [Proteomics](#proteomics)
+    * [Deep neural networks](#deep-neural-networks)
+    * [Convolutional neural networks](#convolutional-neural-networks)
+    * [Recurrent neural networks](#convolutional-neural-networks)
+    * [Emergent architectures](#emergent-architectures)
+  * [Medicine / Disease](#disease)
+    * [Deep neural networks](#deep-neural-networks)
+    * [Convolutional neural networks](#convolutional-neural-networks)
+    * [Recurrent neural networks](#convolutional-neural-networks)
+    * [Emergent architectures](#emergent-architectures)
+  * [White papers](#white-papers)
+    * [Deep neural networks](#deep-neural-networks)
+    * [Convolutional neural networks](#convolutional-neural-networks)
+    * [Recurrent neural networks](#convolutional-neural-networks)
+    * [Emergent architectures](#emergent-architectures)
+  * [Theory](#theory)
+    * [Deep neural networks](#deep-neural-networks)
+    * [Convolutional neural networks](#convolutional-neural-networks)
+    * [Recurrent neural networks](#convolutional-neural-networks)
+    * [Emergent architectures](#emergent-architectures)
   * [Contribution](#contribution)
   * [License](#license)
 
@@ -29,17 +49,33 @@ A curated list of _awesome_ deep learning applications in the field of computati
 
 - **2016-05** | Deep Motif: Visualizing Genomic Sequence Classifications | *Jack Lanchantin, Ritambhara Singh, Zeming Lin, Yanjun Qi* | [Arxiv](http://arxiv.org/abs/1605.01133)
 
+- **2016-01** | DeepMethyl: Predicting DNA Methylation State of CpG Dinucleotide Using Genome Topological Features and Deep Networks | *
+Yiheng Wang, Tong Liu, Dong Xu, Huidong Shi, Chaoyang Zhang, Yin-Yuan Mo, Zheng Wang* | [Nature](https://www.nature.com/articles/srep19598) [Code](http://dna.cs.miami.edu/DeepMethyl/)
+
 - **2015-10** | Basset: Learning the regulatory code of the accessible genome with deep convolutional neural networks | *David R. Kelley, Jasper Snoek, John Rinn* | [Biorxiv](https://doi.org/10.1101/028399) | [code](https://github.com/davek44/Basset)
 
 - **2015-08** | DeepSEA: Predicting effects of noncoding variants with deep learning–based sequence model | *Jian Zhou & Olga G. Troyanskaya* | [Nature Methods: Short intro](https://doi.org/10.1038/nmeth.3604) & [Nature Methods](https://doi.org/10.1038/nmeth.3547)
 
 - **2015-07** | DeepBind: Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning | *Babak Alipanahi,	 Andrew Delong,	Matthew T. Weirauch & Brendan J. Frey* | [Nature Biotechnology](https://doi.org/10.1038/nbt.3300)
 
-## Disease
+## Proteomics
+
+- **2013-03** | DNdisorder: predicting protein disorder using boosting and deep networks | *Jesse Eickholt and Jianlin Cheng* | [BMC Bioinformatics](https://doi.org/10.1186/1471-2105-14-88)
+
+## Medicine / Disease
+
+- **2017-03** | H&E-stained Whole Slide Image Deep Learning Predicts SPOP Mutation State in Prostate Cancer | *Andrew J Schaumberg, Mark A Rubin, Thomas J Fuchs* | [bioRxiv](https://doi.org/10.1101/064279)
 
 - **2017-01** | A Deep Learning Approach for Cancer Detection and Relevant Gene Identification | *Wang, Jing, Cheng Ling, and Jingyang Gao* | [Pacific Symposium on Biocomputing 2017](http://dx.doi.org/10.1142/9789813207813_0022)
 
 - **2017-01** | Dermatologist-level classification of skin cancer with deep neural networks | *Andre Esteva, Brett Kuprel, Roberto A. Novoa, Justin Ko, Susan M. Swetter, Helen M. Blau & Sebastian Thrun* | [Nature](https://doi.org/10.1038/nature21056)
+
+- **2016-03** | Applications of deep learning in biomedicine | *Polina Mamoshina, Armando Vieira, Evgeny Putin, and Alex Zhavoronkov* | [ACS Molecular Pharmaceutics](https://dx.doi.org/10.1021/acs.molpharmaceut.5b00982)
+
+
+## White papers
+
+- **2016-01** | TensorFlow: Biology’s Gateway to Deep Learning? | *Ladislav Rampasek, Anna Goldenberg* | [Cell Systems](https://doi.org/10.1016/j.cels.2016.01.009)
 
 ## 2017
 
@@ -73,15 +109,11 @@ A curated list of _awesome_ deep learning applications in the field of computati
 
 - **2017-03** | Predicting the impact of non-coding variants on DNA methylation | *Zeng, Haoyang, and David K. Gifford* | [Nucleic Acids Research](https://doi.org/10.1093/nar/gkx177)
 
-- **2017-03** | H&E-stained Whole Slide Image Deep Learning Predicts SPOP Mutation State in Prostate Cancer | *Andrew J Schaumberg, Mark A Rubin, Thomas J Fuchs* | [bioRxiv](https://doi.org/10.1101/064279)
-
 ## 2016
 
 - **2016-01** | Learning a hierarchical representation of the yeast transcriptomic machinery using an autoencoder model | *Lujia Chen, Chunhui Cai, Vicky Chen and Xinghua Lu* | [BMC Bioinformatics](https://doi.org/10.1186/s12859-015-0852-1)
 
 - **2016-01** | PEDLA: predicting enhancers with a deep learning-based algorithmic framework | *Feng Liu, Hao Li, Chao Ren, Xiaochen Bo, Wenjie Shu* | [Biorxiv](https://doi.org/10.1101/036129)
-
-- **2016-01** | TensorFlow: Biology’s Gateway to Deep Learning? | *Ladislav Rampasek, Anna Goldenberg* | [Cell Systems](https://doi.org/10.1016/j.cels.2016.01.009)
 
 - **2016-01** | ADAGE-Based Integration of Publicly Available Pseudomonas aeruginosa Gene Expression Data with Denoising Autoencoders Illuminates Microbe-Host Interactions | [mSystems](https://doi.org/10.1128/mSystems.00025-15) | [code](https://github.com/greenelab/adage)
 
@@ -253,8 +285,6 @@ A curated list of _awesome_ deep learning applications in the field of computati
 
 - **2015-10** | A deep learning framework for modeling structural features of RNA-binding protein targets | *Sai Zhang, Jingtian Zhou, Hailin Hu, Haipeng Gong, Ligong Chen, Chao Cheng, and Jianyang Zeng* | [NAR](https://doi.org/10.1093/nar/gkv1025)
 
-- **2015-10** | Basset: Learning the regulatory code of the accessible genome with deep convolutional neural networks | *David R. Kelley, Jasper Snoek, John Rinn* | [Biorxiv](https://doi.org/10.1101/028399) | [code](https://github.com/davek44/Basset)
-
 - **2015-10** | Deep Learning for Drug-Induced Liver Injury | *Youjun Xu, Ziwei Dai, Fangjin Chen, Shuaishi Gao, Jianfeng Pei, and Luhua Lai* | [ASC Journal of Chemical Information and Modeling](https://doi.org/10.1021/acs.jcim.5b00238)
 
 ## 2014
@@ -265,9 +295,6 @@ A curated list of _awesome_ deep learning applications in the field of computati
 
 - **2014-11** | Pairwise input neural network for target-ligand interaction prediction | *Caihua Wang, Juan Liu, Fei Luo, Yafang Tan, Zixin Deng, Qian-Nan Hu* | [2014 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)](https://doi.org/10.1109/BIBM.2014.6999129)
 
- ## 2013
- 
- - **2013-03** | DNdisorder: predicting protein disorder using boosting and deep networks | *Jesse Eickholt and Jianlin Cheng* | [BMC Bioinformatics](https://doi.org/10.1186/1471-2105-14-88)
  
  ## 2012
 
