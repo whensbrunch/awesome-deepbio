@@ -10,7 +10,7 @@
 
 A curated list of _awesome_ deep learning applications in the field of computational biology.
 
-We categorize papers based on two dimensions,domain and architecture, as was performed in this excellent [survey](https://arxiv.org/pdf/1603.06430.pdf) of deep learning applications in bioinformatics. The domains used here are:
+We categorize papers based on two dimensions, domain and architecture, as was performed in this excellent [survey](https://arxiv.org/pdf/1603.06430.pdf) of deep learning applications in bioinformatics. The domains used here are:
 
 1. **Omics**: genetic info such as the genome, transcriptome, and proteome
   - common research avenues: 
