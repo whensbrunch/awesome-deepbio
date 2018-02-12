@@ -303,6 +303,10 @@ Yiheng Wang, Tong Liu, Dong Xu, Huidong Shi, Chaoyang Zhang, Yin-Yuan Mo, Zheng 
 
 - **2016-01** | TensorFlow: Biology’s Gateway to Deep Learning? | *Ladislav Rampasek, Anna Goldenberg* | [Cell Systems](https://doi.org/10.1016/j.cels.2016.01.009)
 
+### See also
+
+[awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
+
 ### Contribution
 
 Feel free to send a pull request.
