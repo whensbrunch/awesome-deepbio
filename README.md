@@ -12,6 +12,10 @@ A curated list of _awesome_ deep learning applications in the field of computati
 
 ## Table of contents
 
+  * [Epigenomics]
+  * [Genomics]
+  * [Disease]
+  
   * [2017](#2017)
   * [2016](#2016)
   * [2015](#2015)
@@ -21,9 +25,23 @@ A curated list of _awesome_ deep learning applications in the field of computati
   * [Contribution](#contribution)
   * [License](#license)
 
-## 2017
+## Epigenomics
+
+- **2016-05** | Deep Motif: Visualizing Genomic Sequence Classifications | *Jack Lanchantin, Ritambhara Singh, Zeming Lin, Yanjun Qi* | [Arxiv](http://arxiv.org/abs/1605.01133)
+
+- **2015-10** | Basset: Learning the regulatory code of the accessible genome with deep convolutional neural networks | *David R. Kelley, Jasper Snoek, John Rinn* | [Biorxiv](https://doi.org/10.1101/028399) | [code](https://github.com/davek44/Basset)
+
+- **2015-08** | DeepSEA: Predicting effects of noncoding variants with deep learning–based sequence model | *Jian Zhou & Olga G. Troyanskaya* | [Nature Methods: Short intro](https://doi.org/10.1038/nmeth.3604) & [Nature Methods](https://doi.org/10.1038/nmeth.3547)
+
+- **2015-07** | DeepBind: Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning | *Babak Alipanahi,	 Andrew Delong,	Matthew T. Weirauch & Brendan J. Frey* | [Nature Biotechnology](https://doi.org/10.1038/nbt.3300)
+
+## Disease
 
 - **2017-01** | A Deep Learning Approach for Cancer Detection and Relevant Gene Identification | *Wang, Jing, Cheng Ling, and Jingyang Gao* | [Pacific Symposium on Biocomputing 2017](http://dx.doi.org/10.1142/9789813207813_0022)
+
+- **2017-01** | Dermatologist-level classification of skin cancer with deep neural networks | *Andre Esteva, Brett Kuprel, Roberto A. Novoa, Justin Ko, Susan M. Swetter, Helen M. Blau & Sebastian Thrun* | [Nature](https://doi.org/10.1038/nature21056)
+
+## 2017
 
 - **2017-01** | Deep Motif Dashboard: Visualizing and Understanding Genomic Sequences Using Deep Neural Networks | *Lanchantin, Jack, Ritambhara Singh, Beilun Wang, and Yanjun Qi* | [Pacific Symposium on Biocomputing 2017](http://dx.doi.org/10.1142/9789813207813_0025)
 
