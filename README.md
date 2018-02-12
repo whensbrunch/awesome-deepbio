@@ -12,19 +12,19 @@ A curated list of _awesome_ deep learning applications in the field of computati
 
 We categorize papers based on two dimensions,domain and architecture, as was performed in this excellent [survey](https://arxiv.org/pdf/1603.06430.pdf) of deep learning applications in bioinformatics. The domains used here are:
 
-1. Omics: genetic info such as the genome, transcriptome, and proteome
+1. *Omics*: genetic info such as the genome, transcriptome, and proteome
   - common research avenues: 
     - protein structure prediction
     - gene expression regulation
     - protein classification
     - anomaly classification (cancer)
-2. Biomedical imaging
+2. *Biomedical imaging*
   - common research avenues:
     - anomaly classification (gene expression patterns, cancer, Alzheimer's, schizophrenia)
     - segmentation (cell structure, neuronal structure, vessel map, brain tumors)
     - recognition (cell nuclei, finger joints, anatomical structure)
     - brain decoding (behavior)
-3. Biomedical signal processing
+3. *Biomedical signal processing*
   - common research avenues:
       - brain decoding (behavior, emotion)
       - anamoly classification (Alzheimer's, seizures, sleep stage)
