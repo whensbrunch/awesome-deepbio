@@ -48,7 +48,7 @@ We further break things down by classifying papers based on the architecture of 
     * [Convolutional neural networks](#convolutional-neural-networks)
     * [Recurrent neural networks](#convolutional-neural-networks)
     * [Emergent architectures](#emergent-architectures)
-  * [Surveys / white papers]
+  * [Surveys / white papers](#surveys)
   * [Contribution](#contribution)
   * [License](#license)
 
