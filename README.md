@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/img/markdownify.png" alt="awesome-deepbio" width="200"></a>
+  <a><img src="https://raw.githubusercontent.com/whensbrunch/awesome-deepbio/master/helix.png)" alt="awesome-deepbio" width="200"></a>
   <br>
   Awesome DeepBio
   <br>
