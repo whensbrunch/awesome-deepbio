@@ -10,6 +10,25 @@
 
 A curated list of _awesome_ deep learning applications in the field of computational biology.
 
+We categorize papers based on two dimensions,domain and architecture, as was performed in this excellent [survey](https://arxiv.org/pdf/1603.06430.pdf) of deep learning applications in bioinformatics. The domains used here are:
+
+1. Omics: genetic info such as the genome, transcriptome, and proteome
+  - common research avenues: 
+    - protein structure prediction
+    - gene expression regulation
+    - protein classification
+    - anomaly classification (cancer)
+2. Biomedical imaging
+  - common research avenues:
+    - anomaly classification (gene expression patterns, cancer, Alzheimer's, schizophrenia)
+    - segmentation (cell structure, neuronal structure, vessel map, brain tumors)
+    - recognition (cell nuclei, finger joints, anatomical structure)
+    - brain decoding (behavior)
+3. Biomedical signal processing
+  - common research avenues:
+      - brain decoding (behavior, emotion)
+      - anamoly classification (Alzheimer's, seizures, sleep stage)
+
 ## Table of contents
 
   * [Epigenomics](#epigenomics)
@@ -45,30 +64,46 @@ A curated list of _awesome_ deep learning applications in the field of computati
   * [Contribution](#contribution)
   * [License](#license)
 
-## Epigenomics
+## Omics
+
+### CNNs
+
+- **2017-01** | HLA class I binding prediction via convolutional neural networks | *Yeeleng Scott Vang, Xiaohui Xie* | [bioRxiv](https://doi.org/10.1101/099358)
+
+- **2017-01** | Deep Motif Dashboard: Visualizing and Understanding Genomic Sequences Using Deep Neural Networks | *Lanchantin, Jack, Ritambhara Singh, Beilun Wang, and Yanjun Qi* | [Pacific Symposium on Biocomputing 2017](http://dx.doi.org/10.1142/9789813207813_0025)
 
 - **2016-05** | Deep Motif: Visualizing Genomic Sequence Classifications | *Jack Lanchantin, Ritambhara Singh, Zeming Lin, Yanjun Qi* | [Arxiv](http://arxiv.org/abs/1605.01133)
+
+- **2015-10** | Basset: Learning the regulatory code of the accessible genome with deep convolutional neural networks | *David R. Kelley, Jasper Snoek, John Rinn* | [Biorxiv](https://doi.org/10.1101/028399) | [code](https://github.com/davek44/Basset)
+
+### DNNs
 
 - **2016-01** | DeepMethyl: Predicting DNA Methylation State of CpG Dinucleotide Using Genome Topological Features and Deep Networks | *
 Yiheng Wang, Tong Liu, Dong Xu, Huidong Shi, Chaoyang Zhang, Yin-Yuan Mo, Zheng Wang* | [Nature](https://www.nature.com/articles/srep19598) [Code](http://dna.cs.miami.edu/DeepMethyl/)
 
-- **2015-10** | Basset: Learning the regulatory code of the accessible genome with deep convolutional neural networks | *David R. Kelley, Jasper Snoek, John Rinn* | [Biorxiv](https://doi.org/10.1101/028399) | [code](https://github.com/davek44/Basset)
-
-- **2015-08** | DeepSEA: Predicting effects of noncoding variants with deep learning–based sequence model | *Jian Zhou & Olga G. Troyanskaya* | [Nature Methods: Short intro](https://doi.org/10.1038/nmeth.3604) & [Nature Methods](https://doi.org/10.1038/nmeth.3547)
-
 - **2015-07** | DeepBind: Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning | *Babak Alipanahi,	 Andrew Delong,	Matthew T. Weirauch & Brendan J. Frey* | [Nature Biotechnology](https://doi.org/10.1038/nbt.3300)
-
-## Proteomics
 
 - **2013-03** | DNdisorder: predicting protein disorder using boosting and deep networks | *Jesse Eickholt and Jianlin Cheng* | [BMC Bioinformatics](https://doi.org/10.1186/1471-2105-14-88)
 
-## Medicine / Disease
+## RNNs
+
+- **2015-08** | DeepSEA: Predicting effects of noncoding variants with deep learning–based sequence model | *Jian Zhou & Olga G. Troyanskaya* | [Nature Methods: Short intro](https://doi.org/10.1038/nmeth.3604) & [Nature Methods](https://doi.org/10.1038/nmeth.3547)
+
+## Biomedical imaging
+
+### CNNs
+
+- **2017-01** | DeadNet: Identifying Phototoxicity from Label-free Microscopy Images of Cells using Deep ConvNets | *David Richmond, Anna Payne-Tobin Jost, Talley Lambert, Jennifer Waters, Hunter Elliott* | [arXiv](https://arxiv.org/abs/1701.06109)
+
+- **2017-01** | Dermatologist-level classification of skin cancer with deep neural networks | *Andre Esteva, Brett Kuprel, Roberto A. Novoa, Justin Ko, Susan M. Swetter, Helen M. Blau & Sebastian Thrun* | [Nature](https://doi.org/10.1038/nature21056)
+
+## DNNs
 
 - **2017-03** | H&E-stained Whole Slide Image Deep Learning Predicts SPOP Mutation State in Prostate Cancer | *Andrew J Schaumberg, Mark A Rubin, Thomas J Fuchs* | [bioRxiv](https://doi.org/10.1101/064279)
 
 - **2017-01** | A Deep Learning Approach for Cancer Detection and Relevant Gene Identification | *Wang, Jing, Cheng Ling, and Jingyang Gao* | [Pacific Symposium on Biocomputing 2017](http://dx.doi.org/10.1142/9789813207813_0022)
 
-- **2017-01** | Dermatologist-level classification of skin cancer with deep neural networks | *Andre Esteva, Brett Kuprel, Roberto A. Novoa, Justin Ko, Susan M. Swetter, Helen M. Blau & Sebastian Thrun* | [Nature](https://doi.org/10.1038/nature21056)
+## Surveys
 
 - **2016-03** | Applications of deep learning in biomedicine | *Polina Mamoshina, Armando Vieira, Evgeny Putin, and Alex Zhavoronkov* | [ACS Molecular Pharmaceutics](https://dx.doi.org/10.1021/acs.molpharmaceut.5b00982)
 
@@ -79,13 +114,6 @@ Yiheng Wang, Tong Liu, Dong Xu, Huidong Shi, Chaoyang Zhang, Yin-Yuan Mo, Zheng 
 
 ## 2017
 
-- **2017-01** | Deep Motif Dashboard: Visualizing and Understanding Genomic Sequences Using Deep Neural Networks | *Lanchantin, Jack, Ritambhara Singh, Beilun Wang, and Yanjun Qi* | [Pacific Symposium on Biocomputing 2017](http://dx.doi.org/10.1142/9789813207813_0025)
-
-- **2017-01** | HLA class I binding prediction via convolutional neural networks | *Yeeleng Scott Vang, Xiaohui Xie* | [bioRxiv](https://doi.org/10.1101/099358)
-
-- **2017-01** | DeadNet: Identifying Phototoxicity from Label-free Microscopy Images of Cells using Deep ConvNets | *David Richmond, Anna Payne-Tobin Jost, Talley Lambert, Jennifer Waters, Hunter Elliott* | [arXiv](https://arxiv.org/abs/1701.06109)
-
-- **2017-01** | Dermatologist-level classification of skin cancer with deep neural networks | *Andre Esteva, Brett Kuprel, Roberto A. Novoa, Justin Ko, Susan M. Swetter, Helen M. Blau & Sebastian Thrun* | [Nature](https://doi.org/10.1038/nature21056)
 
 - **2017-01** | Understanding sequence conservation with deep learning | *Yi Li, Daniel Quang, Xiaohui Xie* | [Biorxiv](https://doi.org/10.1101/103929)
 
