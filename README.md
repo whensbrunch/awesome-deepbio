@@ -8,7 +8,17 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/gokceneraslan/awesome-deepbio)
 
-A curated list of awesome deep learning applications in the field of computational biology
+A curated list of _awesome_ deep learning applications in the field of computational biology.
+
+## Table of contents
+
+  * [2017](#2017)
+  * [2016](#2016)
+  * [2015](#2015)
+  * [2014](#2014)
+  * [2013](#2013)
+  * [2012](#2012)
+
 
 
 - **2012-07** | Deep architectures for protein contact map prediction | *Pietro Di Lena, Ken Nagata and Pierre Baldi* [Bioinformatics](https://doi.org/10.1093/bioinformatics/bts475)
