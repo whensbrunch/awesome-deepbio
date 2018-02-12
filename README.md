@@ -41,13 +41,10 @@ We further break things down by classifying papers based on the architecture of 
   * [Biomedical imaging](#imaging)
     * [Deep neural networks](#deep-neural-networks)
     * [Convolutional neural networks](#convolutional-neural-networks)
-    * [Recurrent neural networks](#convolutional-neural-networks)
     * [Emergent architectures](#emergent-architectures)
   * [Biomedical signal processing](#signal)
     * [Deep neural networks](#deep-neural-networks)
-    * [Convolutional neural networks](#convolutional-neural-networks)
     * [Recurrent neural networks](#convolutional-neural-networks)
-    * [Emergent architectures](#emergent-architectures)
   * [Surveys / white papers](#surveys)
   * [Contribution](#contribution)
   * [License](#license)
@@ -206,10 +203,6 @@ Yiheng Wang, Tong Liu, Dong Xu, Huidong Shi, Chaoyang Zhang, Yin-Yuan Mo, Zheng 
 ### Emergent architectures
 
 - **2016-12** | Medical Image Synthesis with Context-Aware Generative Adversarial Networks | *Dong Nie, Roger Trullo, Caroline Petitjean, Su Ruan, Dinggang Shen* | [Arxiv](https://arxiv.org/abs/1612.05362)
-
-### Surveys
-
-- **2016-03** | Applications of deep learning in biomedicine | *Polina Mamoshina, Armando Vieira, Evgeny Putin, and Alex Zhavoronkov* | [ACS Molecular Pharmaceutics](https://dx.doi.org/10.1021/acs.molpharmaceut.5b00982)
 
 ## Biomedical signal processing
 
